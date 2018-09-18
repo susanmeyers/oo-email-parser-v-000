@@ -1,8 +1,8 @@
 require 'pry'
 class EmailParser
-  @@emails
+  @@CVS_emails
 
-  attr_accessor  :CVS_emails
+  attr_accessor  :emails
 
   def self.parser
     arr = []
