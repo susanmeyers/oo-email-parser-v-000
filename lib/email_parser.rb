@@ -8,29 +8,22 @@ class EmailParser
     @emails = emails
   end
 
-  # def parse
-  #    emails.split(" ")
-  #    #binding.pry
-  #    emails.split(/[,\s]+/).uniq
-  # end
-
   def parse
-    all_emails = emails.split(", ")
-    all_emails.map do |mail|
-
-      #binding.pry
-
-    end.uniq
-
-
-      #binding.pry
-
-
+     emails.split(" ")
+     #binding.pry
+     emails.split(/[,\s]+/).uniq
   end
 
-
-
 end
+
+  # def parse
+  #   all_emails = emails.split(", ")
+  #   all_emails.map do |mail|
+  #   end.uniq
+  # end
+
+
+
 
 
 
