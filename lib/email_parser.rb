@@ -6,7 +6,7 @@ class EmailParser
 
   def self.parse
     self.new
-
+binding.pry
 
 
   end
