@@ -8,11 +8,20 @@ class EmailParser
     @emails = emails
   end
 
+  # def parse
+  #    emails.split(", ")
+  #    #binding.pry
+  #    emails.split(/[,\s]+/).uniq
+  # end
+
   def parse
-     emails.split(", ")
-     #binding.pry
-     emails.split(/[,\s]+/).uniq
-  end
+    emails.each do |mail|
+      binding.pry
+
+    end
+
+
+
 end
 
 
