@@ -3,10 +3,14 @@ class EmailParser
   @@CSV_emails = []
 
   attr_accessor :emails
-binding.pry
-  def self.parse(emails)
 
-    self.new
+  def initialize(emails)
+    @emails = emails
+  end
+
+  def parse(emails)
+binding.pry
+    
 
 
   end
