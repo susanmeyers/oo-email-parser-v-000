@@ -1,10 +1,11 @@
-class EmailParser
-  attr_accessor :emails, :CVS_emails
+require 'pry'
+class EmailParser ::emails
+  attr_accessor  :CVS_emails
 
-  def self.parser(emails)
+  def self.parser(CVS_emails)
     result = []
-    result = self.new(emails)
-    
+    result = self.new
+
 
 
 
