@@ -7,6 +7,7 @@ class EmailParser
   def self.parser(CVS_emails)
     arr = []
     self.new
+  end
 
 
 
