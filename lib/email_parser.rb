@@ -1,6 +1,21 @@
 class EmailParser
   attr_accessor :emails
 
+  def self.parser(emails)
+    self.parce(emails)
+    
+
+  end
+
+
+
+
+
+
+
+
+
+
 end
 
 
