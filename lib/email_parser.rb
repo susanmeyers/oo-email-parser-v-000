@@ -10,7 +10,7 @@ class EmailParser
 
   def parse
     emails.split(", ").each do |email|
-      binding.pry
+      
 
 
 
