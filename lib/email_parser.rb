@@ -1,9 +1,14 @@
 class EmailParser
-  attr_accessor :emails
+  attr_accessor :emails, :CVS_emails
 
   def self.parser(emails)
-    self.parce(emails)
+    result = []
+    result = self.new(emails)
     
+
+
+
+
 
   end
 
