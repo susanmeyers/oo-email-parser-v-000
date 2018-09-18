@@ -17,7 +17,8 @@ class EmailParser
   def parse
     all_emails = emails.split(", ")
     all_emails.map do |mail|
-      binding.pry 
+      binding.pry
+    end 
 
 
       binding.pry
