@@ -11,7 +11,6 @@ class EmailParser
   def parse
      emails.split(", ")
      #binding.pry
-
      emails.split(/[,\s]+/).uniq
   end
 end
