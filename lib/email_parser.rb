@@ -1,5 +1,6 @@
 require 'pry'
 class EmailParser
+  @@CSV_emails = []
 
   attr_accessor :emails
 
