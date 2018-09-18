@@ -15,10 +15,10 @@ class EmailParser
   # end
 
   def parse
-    emails.each do |mail|
+
       binding.pry
 
-    end
+    
   end
 
 
