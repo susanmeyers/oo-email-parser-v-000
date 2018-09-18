@@ -8,7 +8,7 @@ class EmailParser
     @emails = emails
   end
 
-  def parse(emails)
+  def parse
 binding.pry
 
 
