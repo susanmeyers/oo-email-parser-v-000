@@ -14,6 +14,8 @@ class EmailParser
 
      emails.split(/[,\s]+/)
 
+     emails.uniq
+
   end
 
 
