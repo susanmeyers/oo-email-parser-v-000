@@ -13,13 +13,7 @@ class EmailParser
      #binding.pry
 
      emails.split(/[,\s]+/).uniq
-
-
-
   end
-
-
-
 end
 
 
