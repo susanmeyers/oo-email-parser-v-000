@@ -10,18 +10,11 @@ class EmailParser
 
   def parse
     emails.split(", ").each do |email|
-      
-      binding.pry
-
-
-
-
-
-#binding.pry
-
-
+      return email
+    end
   end
-  end
+
+
 
 end
 
