@@ -9,15 +9,13 @@ class EmailParser
   end
 
   def parse
-    emails.split(",")
-    binding.pry
-  end
+     emails.split(", ")
 
-
-  def parse
-    emails.split(/[\s]+/)
+     emails.split(/[\s]+/)
 
   end
+
+
 
 end
 
