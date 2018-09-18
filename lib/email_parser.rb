@@ -16,8 +16,7 @@ class EmailParser
   def parse
     emails.split(/[\s]/)
   binding.pry
-
-
+  end
 
 end
 
