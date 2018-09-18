@@ -9,7 +9,7 @@ class EmailParser
   end
 
   def parse
-    emails.split(", ").map do |mail|
+    emails.split(", ").each do |mail|
 
 
 
