@@ -4,7 +4,7 @@ class EmailParser
 
   attr_accessor  :CVS_emails
 
-  def self.parser(CVS_emails)
+  def self.parser
     arr = []
     self.new
   end
