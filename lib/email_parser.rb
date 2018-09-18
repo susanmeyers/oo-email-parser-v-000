@@ -15,11 +15,14 @@ class EmailParser
   # end
 
   def parse
-    
+    all_emails = emails.split(", ")
+    all_emails.map do |mail|
+      binding.pry 
+
 
       binding.pry
 
-    
+
   end
 
 
