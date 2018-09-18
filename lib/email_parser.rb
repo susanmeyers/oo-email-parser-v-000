@@ -5,8 +5,8 @@ class EmailParser
   attr_accessor :emails
 
   def self.parse
+    binding.pry
     self.new
-binding.pry
 
 
   end
